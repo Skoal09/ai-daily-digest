@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>2026-11-15 | AI Daily Digest</title>
+  <link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+  <div class="container">
+    <header class="site-header">
+      <div class="terminal-path">
+        <a href="../index.html">~/ai-daily-digest</a> / posts / <span class="current">2026-11-15.html</span>
+      </div>
+      <nav>
+        <a href="../index.html" class="back-link">&larr; 返回歸檔列表</a>
+      </nav>
+    </header>
+
+    <main>
+      <div class="post-meta-header">
+        <span class="date-tag">DATE: 2026-11-15</span>
+        <h1>每日 AI 技術與產業快訊</h1>
+        <p class="subtitle">聚焦推理模型算力最佳化、AI 代理開發標準化與邊緣裝置部署技術。</p>
+      </div>
+
+      <section class="news-list">
+        <article class="news-card">
+          <div class="card-header">
+            <span class="badge badge-model">[MODEL]</span>
+            <h2 class="news-title">新一代輕量化推理模型採用動態測試時計算分配架構</h2>
+          </div>
+          <p class="news-summary">最新發布的開源推理模型引入自適應思維鏈（Adaptive CoT）機制，能根據輸入問題的邏輯複雜度動態調整推理 Token 長度，避免在簡單查詢上浪費算力。</p>
+          <ul class="news-highlights">
+            <li><strong>延遲大幅降低：</strong>在一般知識問答任務中，平均首字元延遲（TTFT）與總生成時間較前代縮短 45%。</li>
+            <li><strong>複雜任務維持高準確率：</strong>在程式除錯與多步驟數學基準測試中，仍維持與大型旗艦模型相當的通過率。</li>
+          </ul>
+          <div class="news-footer">
+            <span class="source-tag">Source: Open Model Consortium</span>
+          </div>
+        </article>
+
+        <article class="news-card">
+          <div class="card-header">
+            <span class="badge badge-tools">[TOOLS]</span>
+            <h2 class="news-title">主流 AI 程式開發工具全面支援專案根目錄 AGENTS.md 規範</h2>
+          </div>
+          <p class="news-summary">多個主流 IDE 與 CLI 程式設計代理正式將 AGENTS.md 納入預設上下文讀取優先級，讓開發者能以單一 Markdown 文件跨工具定義程式碼風格與目錄規則。</p>
+          <ul class="news-highlights">
+            <li><strong>降低上下文漂移：</strong>透過明確定義檔案命名與模板結構，AI 在多次迭代修改後仍能維持一致的專案架構。</li>
+            <li><strong>模組化擴充能力：</strong>支援在大型專案的子目錄中配置局部覆寫規則，適應前後端分離架構。</li>
+          </ul>
+          <div class="news-footer">
+            <span class="source-tag">Source: Developer Ecosystem Report</span>
+          </div>
+        </article>
+
+        <article class="news-card">
+          <div class="card-header">
+            <span class="badge badge-research">[RESEARCH]</span>
+            <h2 class="news-title">KV Cache 混合精度量化技術使長上下文本地推論記憶體減半</h2>
+          </div>
+          <p class="news-summary">研究團隊提出針對注意力機制鍵值快取（KV Cache）的分層混合量化演算法，針對高權重注意力頭保留高精準度，其餘部分壓縮至 2-bit 表示。</p>
+          <ul class="news-highlights">
+            <li><strong>顯存需求大幅下降：</strong>在 128K 上下文視窗下，推論過程的 VRAM 佔用量減少約 52%。</li>
+            <li><strong>消費級硬體友善：</strong>使單張中階顯示卡得以在本地端流暢運行長文件 RAG 與多輪對話分析任務。</li>
+          </ul>
+          <div class="news-footer">
+            <span class="source-tag">Source: arXiv cs.CL</span>
+          </div>
+        </article>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Generated following <code>AGENTS.md</code> specification.</p>
+    </footer>
+  </div>
+</body>
+</html>
