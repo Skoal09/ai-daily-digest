@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>2026-11-16 | AI Daily Digest</title>
+  <link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+  <div class="container">
+    <header class="site-header">
+      <div class="terminal-path">
+        <a href="../index.html">~/ai-daily-digest</a> / posts / <span class="current">2026-11-16.html</span>
+      </div>
+      <nav>
+        <a href="../index.html" class="back-link">&larr; 返回歸檔列表</a>
+      </nav>
+    </header>
+
+    <main>
+      <div class="post-meta-header">
+        <span class="date-tag">DATE: 2026-11-16</span>
+        <h1>每日 AI 技術與產業快訊</h1>
+        <p class="subtitle">涵蓋 Gemini 4 Hydrogen 全面鋪開、HBM4 產能鎖定、代理控制面生態與 Anthropic IPO 動態。</p>
+      </div>
+
+      <section class="news-list">
+        <article class="news-card">
+          <div class="card-header">
+            <span class="badge badge-model">[MODEL]</span>
+            <h2 class="news-title">Google Gemini 4 Hydrogen 全面鋪開並主導本周模型迭代</h2>
+          </div>
+          <p class="news-summary">Google DeepMind 推出的通用推論模型 gemini-4-hydrogen 完成多平台 API 閘道接入，正式取代舊有 Flash 系列成為高性價比主力，整合四檔動態思考調節與完整 100 萬 Token 上下文視窗；市場亦關注 DeepSeek 將於 11 月 23 日迎來次世代架構更新。</p>
+          <ul class="news-highlights">
+            <li><strong>降低 Agentic 推論開銷：</strong>透過將推理深度分級化，企業在執行低延遲長程代理工作流時的算力成本顯著下降。</li>
+            <li><strong>核心定價與規格：</strong>標準 API 定價維持每百萬輸入 Token 1.50 美元、輸出 7.50 美元，完整支援 1,000,000 Token 上下文視窗。</li>
+          </ul>
+          <div class="news-footer">
+            <span class="source-tag">Source: Google DeepMind / LLM Gateway</span>
+          </div>
+        </article>
+
+        <article class="news-card">
+          <div class="card-header">
+            <span class="badge badge-industry">[INDUSTRY]</span>
+            <h2 class="news-title">HBM4 產能爭奪白熱化，SK 海力士鎖定逾五成 2027-2028 年供應合約</h2>
+          </div>
+          <p class="news-summary">記憶體供應鏈追蹤顯示，SK 海力士 HBM4 出貨量與營收將於 2026 年第四季正式超越 HBM3E，M15X 新廠將於年底前滿載運轉。隨 NVIDIA 公布 Vera Rubin GPU 規格調整，三大記憶體廠正加快 2027 年 HBM4E 認證與長期供貨合約簽署。</p>
+          <ul class="news-highlights">
+            <li><strong>算力擴張核心瓶頸：</strong>高頻寬記憶體已取代單純晶圓代工成為機櫃級算力擴張關鍵，NVIDIA 臨時管理層的採購定調將左右明年硬體 BOM 成本。</li>
+            <li><strong>關鍵規格與市佔：</strong>SK 海力士鎖定逾 50% 未來兩年 HBM4 合約；Vera Rubin 單卡配置 288 GB HBM4、記憶體頻寬 19.2 TB/s（較早期預期下修約 13%），NVLink 6 頻寬調整至 3.0 TB/s。</li>
+          </ul>
+          <div class="news-footer">
+            <span class="source-tag">Source: Semiconductor Supply Chain Tracker</span>
+          </div>
+        </article>
+
+        <article class="news-card">
+          <div class="card-header">
+            <span class="badge badge-tools">[TOOLS]</span>
+            <h2 class="news-title">GitHub 開源生態全面向「代理運行時控制面與安全技能」收斂</h2>
+          </div>
+          <p class="news-summary">最新 GitHub API 星標增速顯示，本周開源 AI 基礎設施由代理編排運行時、本地持久記憶層與自主網頁執行引擎主導，包含逆向工程代理 morluto/rea、網頁抓取引擎 firecrawl/firecrawl、多代理協同架構 stablyai/orca、Claude Code 記憶外掛 thedotmack/claude-mem 及 alibaba/open-code-review。</p>
+          <ul class="news-highlights">
+            <li><strong>解決跨會話上下文遺忘：</strong>工作流從單一對話演進為多代理平行工作區，導入本地記憶庫與程式庫知識圖譜（如 graphify）以降低重構大型專案的 Token 浪費。</li>
+            <li><strong>熱門專案焦點：</strong>榜首 morluto/rea 星標增速居全站第一，代表性工具集中於代理沙盒控制面、自動化 PR 審查與跨會話記憶壓縮。</li>
+          </ul>
+          <div class="news-footer">
+            <span class="source-tag">Source: GitHub API Trending Snapshot</span>
+          </div>
+        </article>
+
+        <article class="news-card">
+          <div class="card-header">
+            <span class="badge badge-industry">[INDUSTRY]</span>
+            <h2 class="news-title">Anthropic IPO 超額認購達 6 倍，11 月 18 日定價並迎來 NVIDIA 財報雙重考驗</h2>
+          </div>
+          <p class="news-summary">Anthropic 預計於 11 月 18 日完成那斯達克 IPO（代碼 ANT）定價並於 19 日掛牌，目前認購訂單達可配售股份 6 倍。同時，作為百億美元級基石投資人的 NVIDIA 將於 11 月 17 日公布財報，直接牽動定價前夕市場情緒。</p>
+          <ul class="news-highlights">
+            <li><strong>營收與資本支出考驗：</strong>年化營收運轉率達 810 億美元，但高達 9,010 億美元的長期算力採購承諾與 266 億美元股權激勵費用將使公開市場嚴格審視現金流模型。</li>
+            <li><strong>發行價與估值規模：</strong>發行價區間每股 70 至 78 美元（中間價預計淨募資 846 億美元），完全稀釋估值最高達 1.4 兆美元，較秋季市場預期下修約 30%。</li>
+          </ul>
+          <div class="news-footer">
+            <span class="source-tag">Source: Nasdaq IPO Filing / Market Bookbuilding</span>
+          </div>
+        </article>
+
+        <article class="news-card">
+          <div class="card-header">
+            <span class="badge badge-industry">[INDUSTRY]</span>
+            <h2 class="news-title">中國官方警告美國國會新晶片出口管制，眾議院加速凝聚立法共識</h2>
+          </div>
+          <p class="news-summary">針對美國眾議院議長表態正就加嚴 AI 晶片出口限制凝聚共識（擬納入 NDAA 附帶條款），中國官方於 11 月 15 日發出嚴正警告反對收緊限制；與此同時，NVIDIA 董事會持續推進內部調查並於本週迎接黃仁勳赴國會閉門作證。</p>
+          <ul class="news-highlights">
+            <li><strong>算力供應鏈區域割裂：</strong>美國國會對中鷹派加速推動強制性晶片實體追蹤與第三方雲端算力遠端存取限制，地緣政治合規門檻持續升高。</li>
+            <li><strong>立法時程影響：</strong>國會目標於 2026 年底前確立新一輪出口管制框架，將直接影響未來兩年東南亞及第三地超大規模算力中心的採購與跨境審批。</li>
+          </ul>
+          <div class="news-footer">
+            <span class="source-tag">Source: Policy &amp; Regulatory Wire</span>
+          </div>
+        </article>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Generated following <code>AGENTS.md</code> specification.</p>
+    </footer>
+  </div>
+</body>
+</html>
